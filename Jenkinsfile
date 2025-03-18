@@ -23,8 +23,8 @@ pipeline {
                 echo 'Deploying application...'
             }
         }
-    
 
+    }
     post {
         failure {
             echo 'Pipeline failed'
